@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24E7A2A40A23AF44006C146F /* Make All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24E7A2BD0A23AF87006C146F /* Build configuration list for PBXAggregateTarget "Make All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				24E7A2A60A23AF49006C146F /* PBXTargetDependency */,
+				24E7A2A80A23AF4A006C146F /* PBXTargetDependency */,
+			);
+			name = "Make All";
+			productName = "Make All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2407DEBA089929BA00EB68BF /* PulseDelayVST.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407DEB7089929BA00EB68BF /* PulseDelayVST.h */; };
+		2407DEBB089929BA00EB68BF /* PulseDelayVST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2407DEB8089929BA00EB68BF /* PulseDelayVST.cpp */; };
+		245B71C00965AA2B00E5733E /* defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 245B71BF0965AA2B00E5733E /* defaults.h */; };
+		2496C45B0A5528FB009E90E5 /* AU-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24D27C77097B1CEB0039D32E /* AU-Info.plist */; };
+		24C0ABFB0964A83D002FAA1A /* PulseDelayCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C0ABF90964A83D002FAA1A /* PulseDelayCore.h */; };
+		24C0ABFC0964A83D002FAA1A /* PulseDelayCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24C0ABFA0964A83D002FAA1A /* PulseDelayCore.cpp */; };
+		24CFB70407E7A0220081BD57 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 24CFB70307E7A0220081BD57 /* PkgInfo */; };
+		24D14C42096D6D9600D7CD97 /* fxEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D14C40096D6D9600D7CD97 /* fxEnvelope.h */; };
+		24D14C43096D6D9600D7CD97 /* fxEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */; };
+		24D1804D0AD2BF320021C368 /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D180490AD2BF320021C368 /* xmlLogger.cpp */; };
+		24D1804E0AD2BF320021C368 /* xmlLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D1804A0AD2BF320021C368 /* xmlLogger.h */; };
+		24D1804F0AD2BF320021C368 /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D1804B0AD2BF320021C368 /* xmlWriter.cpp */; };
+		24D180500AD2BF320021C368 /* xmlWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D1804C0AD2BF320021C368 /* xmlWriter.h */; };
+		24D180510AD2BF320021C368 /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D180490AD2BF320021C368 /* xmlLogger.cpp */; };
+		24D180520AD2BF320021C368 /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D1804B0AD2BF320021C368 /* xmlWriter.cpp */; };
+		24D27CF6097B3E0F0039D32E /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC6097B3E0E0039D32E /* AUBase.cpp */; };
+		24D27CF7097B3E0F0039D32E /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC7097B3E0E0039D32E /* AUDispatch.cpp */; };
+		24D27CF8097B3E0F0039D32E /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC8097B3E0E0039D32E /* AUInputElement.cpp */; };
+		24D27CF9097B3E0F0039D32E /* AUOutputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC9097B3E0E0039D32E /* AUOutputElement.cpp */; };
+		24D27CFA097B3E0F0039D32E /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CCA097B3E0E0039D32E /* AUScopeElement.cpp */; };
+		24D27CFB097B3E0F0039D32E /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CCB097B3E0E0039D32E /* ComponentBase.cpp */; };
+		24D27CFC097B3E0F0039D32E /* AUCarbonViewBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CD4097B3E0E0039D32E /* AUCarbonViewBase.cpp */; };
+		24D27CFD097B3E0F0039D32E /* AUCarbonViewControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CD6097B3E0E0039D32E /* AUCarbonViewControl.cpp */; };
+		24D27CFE097B3E0F0039D32E /* AUCarbonViewDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CD8097B3E0E0039D32E /* AUCarbonViewDispatch.cpp */; };
+		24D27CFF097B3E0F0039D32E /* AUControlGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CD9097B3E0E0039D32E /* AUControlGroup.cpp */; };
+		24D27D00097B3E0F0039D32E /* CarbonEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CDB097B3E0E0039D32E /* CarbonEventHandler.cpp */; };
+		24D27D01097B3E0F0039D32E /* AUEffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CE0097B3E0E0039D32E /* AUEffectBase.cpp */; };
+		24D27D02097B3E0F0039D32E /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CE3097B3E0E0039D32E /* AUBuffer.cpp */; };
+		24D27D03097B3E0F0039D32E /* AUDebugDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CE5097B3E0E0039D32E /* AUDebugDispatcher.cpp */; };
+		24D27D04097B3E0F0039D32E /* CAAUParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CEB097B3E0E0039D32E /* CAAUParameter.cpp */; };
+		24D27D05097B3E0F0039D32E /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CED097B3E0E0039D32E /* CAAudioChannelLayout.cpp */; };
+		24D27D06097B3E0F0039D32E /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CEF097B3E0E0039D32E /* CAMutex.cpp */; };
+		24D27D07097B3E0F0039D32E /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CF1097B3E0E0039D32E /* CAStreamBasicDescription.cpp */; };
+		24D27D08097B3E0F0039D32E /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CF4097B3E0E0039D32E /* CAVectorUnit.cpp */; };
+		24D27DE0097B40500039D32E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D27DDC097B40500039D32E /* CoreAudio.framework */; };
+		24D27DE1097B40500039D32E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D27DDD097B40500039D32E /* CoreServices.framework */; };
+		24D27DE2097B40500039D32E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D27DDE097B40500039D32E /* AudioToolbox.framework */; };
+		24D27DE3097B40500039D32E /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D27DDF097B40500039D32E /* AudioUnit.framework */; };
+		24D27E11097B42600039D32E /* PulseDelay.r in Rez */ = {isa = PBXBuildFile; fileRef = 24D27DF0097B40F80039D32E /* PulseDelay.r */; };
+		24D27E45097B449A0039D32E /* PulseDelayAU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27E44097B449A0039D32E /* PulseDelayAU.cpp */; };
+		24D27EDF097B4C800039D32E /* PulseDelayCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24C0ABFA0964A83D002FAA1A /* PulseDelayCore.cpp */; };
+		24D27EE0097B4C8E0039D32E /* fxEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */; };
+		24D28029097C26C80039D32E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		24F30A350AB9C7CE009BF892 /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A210AB9C7CE009BF892 /* effectCore.cpp */; };
+		24F30A360AB9C7CE009BF892 /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A230AB9C7CE009BF892 /* eventManager.cpp */; };
+		24F30A370AB9C7CE009BF892 /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A250AB9C7CE009BF892 /* pluginCore.cpp */; };
+		24F30A3D0AB9C7CE009BF892 /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A2D0AB9C7CE009BF892 /* productDir.cpp */; };
+		24F30A450AB9C7CE009BF892 /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A210AB9C7CE009BF892 /* effectCore.cpp */; };
+		24F30A460AB9C7CE009BF892 /* effectCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A220AB9C7CE009BF892 /* effectCore.h */; };
+		24F30A470AB9C7CE009BF892 /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A230AB9C7CE009BF892 /* eventManager.cpp */; };
+		24F30A480AB9C7CE009BF892 /* eventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A240AB9C7CE009BF892 /* eventManager.h */; };
+		24F30A490AB9C7CE009BF892 /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A250AB9C7CE009BF892 /* pluginCore.cpp */; };
+		24F30A4A0AB9C7CE009BF892 /* pluginCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A260AB9C7CE009BF892 /* pluginCore.h */; };
+		24F30A510AB9C7CE009BF892 /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A2D0AB9C7CE009BF892 /* productDir.cpp */; };
+		24F30A520AB9C7CE009BF892 /* productDir.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A2E0AB9C7CE009BF892 /* productDir.h */; };
+		24F30A5D0AB9C7F3009BF892 /* aeffeditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A570AB9C7F3009BF892 /* aeffeditor.h */; };
+		24F30A5E0AB9C7F3009BF892 /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A580AB9C7F3009BF892 /* audioeffect.cpp */; };
+		24F30A5F0AB9C7F3009BF892 /* audioeffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A590AB9C7F3009BF892 /* audioeffect.h */; };
+		24F30A600AB9C7F3009BF892 /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */; };
+		24F30A610AB9C7F3009BF892 /* audioeffectx.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */; };
+		24F30A620AB9C7F3009BF892 /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */; };
+		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E7A2A50A23AF49006C146F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D27C75097B1CEB0039D32E;
+			remoteInfo = "PulseDelay-AU";
+		};
+		24E7A2A70A23AF4A006C146F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D01CCC60486CAD60068D4B7;
+			remoteInfo = "PulseDelay-VST";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2407DE920899296600EB68BF /* PulseDelay.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseDelay.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		2407DEB7089929BA00EB68BF /* PulseDelayVST.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PulseDelayVST.h; path = source/PulseDelayVST.h; sourceTree = "<group>"; };
+		2407DEB8089929BA00EB68BF /* PulseDelayVST.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PulseDelayVST.cpp; path = source/PulseDelayVST.cpp; sourceTree = "<group>"; };
+		245B71BF0965AA2B00E5733E /* defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defaults.h; path = source/defaults.h; sourceTree = "<group>"; };
+		24C0ABF90964A83D002FAA1A /* PulseDelayCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PulseDelayCore.h; path = source/PulseDelayCore.h; sourceTree = "<group>"; };
+		24C0ABFA0964A83D002FAA1A /* PulseDelayCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PulseDelayCore.cpp; path = source/PulseDelayCore.cpp; sourceTree = "<group>"; };
+		24CFB70307E7A0220081BD57 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PkgInfo; path = mac/PkgInfo; sourceTree = "<group>"; };
+		24D14C40096D6D9600D7CD97 /* fxEnvelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fxEnvelope.h; path = source/fxEnvelope.h; sourceTree = "<group>"; };
+		24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fxEnvelope.cpp; path = source/fxEnvelope.cpp; sourceTree = "<group>"; };
+		24D180490AD2BF320021C368 /* xmlLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = xmlLogger.cpp; path = trunk/source/xmlLogger.cpp; sourceTree = "<group>"; };
+		24D1804A0AD2BF320021C368 /* xmlLogger.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = xmlLogger.h; path = trunk/source/xmlLogger.h; sourceTree = "<group>"; };
+		24D1804B0AD2BF320021C368 /* xmlWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = xmlWriter.cpp; path = trunk/source/xmlWriter.cpp; sourceTree = "<group>"; };
+		24D1804C0AD2BF320021C368 /* xmlWriter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = xmlWriter.h; path = trunk/source/xmlWriter.h; sourceTree = "<group>"; };
+		24D27C76097B1CEB0039D32E /* PulseDelay.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseDelay.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D27C77097B1CEB0039D32E /* AU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "AU-Info.plist"; path = "mac/AU-Info.plist"; sourceTree = "<group>"; };
+		24D27CC6097B3E0E0039D32E /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUBase.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUBase.cpp; sourceTree = "<absolute>"; };
+		24D27CC7097B3E0E0039D32E /* AUDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUDispatch.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUDispatch.cpp; sourceTree = "<absolute>"; };
+		24D27CC8097B3E0E0039D32E /* AUInputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUInputElement.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUInputElement.cpp; sourceTree = "<absolute>"; };
+		24D27CC9097B3E0E0039D32E /* AUOutputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUOutputElement.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUOutputElement.cpp; sourceTree = "<absolute>"; };
+		24D27CCA097B3E0E0039D32E /* AUScopeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUScopeElement.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUScopeElement.cpp; sourceTree = "<absolute>"; };
+		24D27CCB097B3E0E0039D32E /* ComponentBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentBase.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/ComponentBase.cpp; sourceTree = "<absolute>"; };
+		24D27CCC097B3E0E0039D32E /* AUBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUBase.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUBase.h; sourceTree = "<absolute>"; };
+		24D27CCD097B3E0E0039D32E /* AUDispatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUDispatch.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUDispatch.h; sourceTree = "<absolute>"; };
+		24D27CCE097B3E0E0039D32E /* AUInputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUInputElement.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUInputElement.h; sourceTree = "<absolute>"; };
+		24D27CCF097B3E0E0039D32E /* AUOutputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUOutputElement.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUOutputElement.h; sourceTree = "<absolute>"; };
+		24D27CD0097B3E0E0039D32E /* AUScopeElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUScopeElement.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUScopeElement.h; sourceTree = "<absolute>"; };
+		24D27CD1097B3E0E0039D32E /* ComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ComponentBase.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/ComponentBase.h; sourceTree = "<absolute>"; };
+		24D27CD2097B3E0E0039D32E /* AUResources.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = AUResources.r; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUResources.r; sourceTree = "<absolute>"; };
+		24D27CD4097B3E0E0039D32E /* AUCarbonViewBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUCarbonViewBase.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUCarbonViewBase.cpp; sourceTree = "<absolute>"; };
+		24D27CD5097B3E0E0039D32E /* AUCarbonViewBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUCarbonViewBase.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUCarbonViewBase.h; sourceTree = "<absolute>"; };
+		24D27CD6097B3E0E0039D32E /* AUCarbonViewControl.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUCarbonViewControl.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUCarbonViewControl.cpp; sourceTree = "<absolute>"; };
+		24D27CD7097B3E0E0039D32E /* AUCarbonViewControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUCarbonViewControl.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUCarbonViewControl.h; sourceTree = "<absolute>"; };
+		24D27CD8097B3E0E0039D32E /* AUCarbonViewDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUCarbonViewDispatch.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUCarbonViewDispatch.cpp; sourceTree = "<absolute>"; };
+		24D27CD9097B3E0E0039D32E /* AUControlGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUControlGroup.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUControlGroup.cpp; sourceTree = "<absolute>"; };
+		24D27CDA097B3E0E0039D32E /* AUControlGroup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUControlGroup.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/AUControlGroup.h; sourceTree = "<absolute>"; };
+		24D27CDB097B3E0E0039D32E /* CarbonEventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CarbonEventHandler.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/CarbonEventHandler.cpp; sourceTree = "<absolute>"; };
+		24D27CDC097B3E0E0039D32E /* CarbonEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CarbonEventHandler.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase/CarbonEventHandler.h; sourceTree = "<absolute>"; };
+		24D27CDE097B3E0E0039D32E /* AUViewLocalizedStringKeys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUViewLocalizedStringKeys.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUViewBase/AUViewLocalizedStringKeys.h; sourceTree = "<absolute>"; };
+		24D27CE0097B3E0E0039D32E /* AUEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUEffectBase.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/OtherBases/AUEffectBase.cpp; sourceTree = "<absolute>"; };
+		24D27CE1097B3E0E0039D32E /* AUEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUEffectBase.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/OtherBases/AUEffectBase.h; sourceTree = "<absolute>"; };
+		24D27CE3097B3E0E0039D32E /* AUBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUBuffer.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUBuffer.cpp; sourceTree = "<absolute>"; };
+		24D27CE4097B3E0E0039D32E /* AUBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUBuffer.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUBuffer.h; sourceTree = "<absolute>"; };
+		24D27CE5097B3E0E0039D32E /* AUDebugDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUDebugDispatcher.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUDebugDispatcher.cpp; sourceTree = "<absolute>"; };
+		24D27CE6097B3E0E0039D32E /* AUDebugDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUDebugDispatcher.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUDebugDispatcher.h; sourceTree = "<absolute>"; };
+		24D27CE7097B3E0E0039D32E /* AUInputFormatConverter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUInputFormatConverter.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUInputFormatConverter.h; sourceTree = "<absolute>"; };
+		24D27CE8097B3E0E0039D32E /* AUSilentTimeout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUSilentTimeout.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUSilentTimeout.h; sourceTree = "<absolute>"; };
+		24D27CE9097B3E0E0039D32E /* AUTimestampGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AUTimestampGenerator.h; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility/AUTimestampGenerator.h; sourceTree = "<absolute>"; };
+		24D27CEB097B3E0E0039D32E /* CAAUParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAAUParameter.cpp; path = /Developer/Examples/CoreAudio/PublicUtility/CAAUParameter.cpp; sourceTree = "<absolute>"; };
+		24D27CEC097B3E0E0039D32E /* CAAUParameter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAAUParameter.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAAUParameter.h; sourceTree = "<absolute>"; };
+		24D27CED097B3E0E0039D32E /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioChannelLayout.cpp; path = /Developer/Examples/CoreAudio/PublicUtility/CAAudioChannelLayout.cpp; sourceTree = "<absolute>"; };
+		24D27CEE097B3E0E0039D32E /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAAudioChannelLayout.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAAudioChannelLayout.h; sourceTree = "<absolute>"; };
+		24D27CEF097B3E0E0039D32E /* CAMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAMutex.cpp; path = /Developer/Examples/CoreAudio/PublicUtility/CAMutex.cpp; sourceTree = "<absolute>"; };
+		24D27CF0097B3E0E0039D32E /* CAMutex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAMutex.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAMutex.h; sourceTree = "<absolute>"; };
+		24D27CF1097B3E0E0039D32E /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = /Developer/Examples/CoreAudio/PublicUtility/CAStreamBasicDescription.cpp; sourceTree = "<absolute>"; };
+		24D27CF2097B3E0E0039D32E /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAStreamBasicDescription.h; sourceTree = "<absolute>"; };
+		24D27CF3097B3E0E0039D32E /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAVectorUnitTypes.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAVectorUnitTypes.h; sourceTree = "<absolute>"; };
+		24D27CF4097B3E0E0039D32E /* CAVectorUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAVectorUnit.cpp; path = /Developer/Examples/CoreAudio/PublicUtility/CAVectorUnit.cpp; sourceTree = "<absolute>"; };
+		24D27CF5097B3E0E0039D32E /* CAVectorUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAVectorUnit.h; path = /Developer/Examples/CoreAudio/PublicUtility/CAVectorUnit.h; sourceTree = "<absolute>"; };
+		24D27DDC097B40500039D32E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		24D27DDD097B40500039D32E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		24D27DDE097B40500039D32E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		24D27DDF097B40500039D32E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		24D27DEF097B40F80039D32E /* PulseDelay.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; name = PulseDelay.exp; path = mac/PulseDelay.exp; sourceTree = SOURCE_ROOT; };
+		24D27DF0097B40F80039D32E /* PulseDelay.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = PulseDelay.r; path = mac/PulseDelay.r; sourceTree = SOURCE_ROOT; };
+		24D27E43097B449A0039D32E /* PulseDelayAU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PulseDelayAU.h; path = source/PulseDelayAU.h; sourceTree = "<group>"; };
+		24D27E44097B449A0039D32E /* PulseDelayAU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PulseDelayAU.cpp; path = source/PulseDelayAU.cpp; sourceTree = "<group>"; };
+		24F30A210AB9C7CE009BF892 /* effectCore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = effectCore.cpp; path = trunk/source/effectCore.cpp; sourceTree = "<group>"; };
+		24F30A220AB9C7CE009BF892 /* effectCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = effectCore.h; path = trunk/source/effectCore.h; sourceTree = "<group>"; };
+		24F30A230AB9C7CE009BF892 /* eventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = eventManager.cpp; path = trunk/source/eventManager.cpp; sourceTree = "<group>"; };
+		24F30A240AB9C7CE009BF892 /* eventManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = eventManager.h; path = trunk/source/eventManager.h; sourceTree = "<group>"; };
+		24F30A250AB9C7CE009BF892 /* pluginCore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = pluginCore.cpp; path = trunk/source/pluginCore.cpp; sourceTree = "<group>"; };
+		24F30A260AB9C7CE009BF892 /* pluginCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = pluginCore.h; path = trunk/source/pluginCore.h; sourceTree = "<group>"; };
+		24F30A2D0AB9C7CE009BF892 /* productDir.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = productDir.cpp; path = trunk/source/productDir.cpp; sourceTree = "<group>"; };
+		24F30A2E0AB9C7CE009BF892 /* productDir.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = productDir.h; path = trunk/source/productDir.h; sourceTree = "<group>"; };
+		24F30A570AB9C7F3009BF892 /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffeditor.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/aeffeditor.h; sourceTree = SOURCE_ROOT; };
+		24F30A580AB9C7F3009BF892 /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffect.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		24F30A590AB9C7F3009BF892 /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffect.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffect.h; sourceTree = SOURCE_ROOT; };
+		24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffectx.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffectx.cpp; sourceTree = SOURCE_ROOT; };
+		24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffectx.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffectx.h; sourceTree = SOURCE_ROOT; };
+		24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstplugmain.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/vstplugmain.cpp; sourceTree = SOURCE_ROOT; };
+		8D01CCD10486CAD60068D4B7 /* VST-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "VST-Info.plist"; path = "mac/VST-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D27C74097B1CEB0039D32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D28029097C26C80039D32E /* Carbon.framework in Frameworks */,
+				24D27DE0097B40500039D32E /* CoreAudio.framework in Frameworks */,
+				24D27DE1097B40500039D32E /* CoreServices.framework in Frameworks */,
+				24D27DE2097B40500039D32E /* AudioToolbox.framework in Frameworks */,
+				24D27DE3097B40500039D32E /* AudioUnit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FM-Chopper */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CC3097B3E0E0039D32E /* AU Source */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				08FB77ADFE841716C02AAC07 /* Source */,
+				24101DA509624FDD001F677D /* PluginCore */,
+				24CFB71B07E7A1BC0081BD57 /* VST Source */,
+			);
+			name = "FM-Chopper";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				24D27DDE097B40500039D32E /* AudioToolbox.framework */,
+				24D27DDF097B40500039D32E /* AudioUnit.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+				24D27DDC097B40500039D32E /* CoreAudio.framework */,
+				24D27DDD097B40500039D32E /* CoreServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D27DEA097B40C60039D32E /* AU */,
+				24D27EE6097B4D120039D32E /* VST */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */,
+				24D27E44097B449A0039D32E /* PulseDelayAU.cpp */,
+				24C0ABFA0964A83D002FAA1A /* PulseDelayCore.cpp */,
+				2407DEB8089929BA00EB68BF /* PulseDelayVST.cpp */,
+				245B71BF0965AA2B00E5733E /* defaults.h */,
+				24D14C40096D6D9600D7CD97 /* fxEnvelope.h */,
+				24D27E43097B449A0039D32E /* PulseDelayAU.h */,
+				24C0ABF90964A83D002FAA1A /* PulseDelayCore.h */,
+				2407DEB7089929BA00EB68BF /* PulseDelayVST.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2407DE920899296600EB68BF /* PulseDelay.vst */,
+				24D27C76097B1CEB0039D32E /* PulseDelay.component */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24101DA509624FDD001F677D /* PluginCore */ = {
+			isa = PBXGroup;
+			children = (
+				24F30A210AB9C7CE009BF892 /* effectCore.cpp */,
+				24F30A230AB9C7CE009BF892 /* eventManager.cpp */,
+				24F30A250AB9C7CE009BF892 /* pluginCore.cpp */,
+				24F30A2D0AB9C7CE009BF892 /* productDir.cpp */,
+				24D180490AD2BF320021C368 /* xmlLogger.cpp */,
+				24D1804B0AD2BF320021C368 /* xmlWriter.cpp */,
+				24F30A220AB9C7CE009BF892 /* effectCore.h */,
+				24F30A240AB9C7CE009BF892 /* eventManager.h */,
+				24F30A260AB9C7CE009BF892 /* pluginCore.h */,
+				24F30A2E0AB9C7CE009BF892 /* productDir.h */,
+				24D1804A0AD2BF320021C368 /* xmlLogger.h */,
+				24D1804C0AD2BF320021C368 /* xmlWriter.h */,
+			);
+			name = PluginCore;
+			path = ../../PluginCore;
+			sourceTree = "<group>";
+		};
+		24CFB71B07E7A1BC0081BD57 /* VST Source */ = {
+			isa = PBXGroup;
+			children = (
+				24F30A570AB9C7F3009BF892 /* aeffeditor.h */,
+				24F30A580AB9C7F3009BF892 /* audioeffect.cpp */,
+				24F30A590AB9C7F3009BF892 /* audioeffect.h */,
+				24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */,
+				24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */,
+				24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */,
+			);
+			name = "VST Source";
+			sourceTree = "<group>";
+		};
+		24D27CC3097B3E0E0039D32E /* AU Source */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CEA097B3E0E0039D32E /* Public Utility */,
+				24D27CC4097B3E0E0039D32E /* AUPublic */,
+			);
+			name = "AU Source";
+			sourceTree = "<group>";
+		};
+		24D27CC4097B3E0E0039D32E /* AUPublic */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CC5097B3E0E0039D32E /* AUBase */,
+				24D27CD3097B3E0E0039D32E /* AUCarbonViewBase */,
+				24D27CDD097B3E0E0039D32E /* AUViewBase */,
+				24D27CDF097B3E0E0039D32E /* OtherBases */,
+				24D27CE2097B3E0E0039D32E /* Utility */,
+			);
+			name = AUPublic;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic;
+			sourceTree = "<absolute>";
+		};
+		24D27CC5097B3E0E0039D32E /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CC6097B3E0E0039D32E /* AUBase.cpp */,
+				24D27CC7097B3E0E0039D32E /* AUDispatch.cpp */,
+				24D27CC8097B3E0E0039D32E /* AUInputElement.cpp */,
+				24D27CC9097B3E0E0039D32E /* AUOutputElement.cpp */,
+				24D27CCA097B3E0E0039D32E /* AUScopeElement.cpp */,
+				24D27CCB097B3E0E0039D32E /* ComponentBase.cpp */,
+				24D27CCC097B3E0E0039D32E /* AUBase.h */,
+				24D27CCD097B3E0E0039D32E /* AUDispatch.h */,
+				24D27CCE097B3E0E0039D32E /* AUInputElement.h */,
+				24D27CCF097B3E0E0039D32E /* AUOutputElement.h */,
+				24D27CD0097B3E0E0039D32E /* AUScopeElement.h */,
+				24D27CD1097B3E0E0039D32E /* ComponentBase.h */,
+				24D27CD2097B3E0E0039D32E /* AUResources.r */,
+			);
+			name = AUBase;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase;
+			sourceTree = "<absolute>";
+		};
+		24D27CD3097B3E0E0039D32E /* AUCarbonViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CD4097B3E0E0039D32E /* AUCarbonViewBase.cpp */,
+				24D27CD6097B3E0E0039D32E /* AUCarbonViewControl.cpp */,
+				24D27CD8097B3E0E0039D32E /* AUCarbonViewDispatch.cpp */,
+				24D27CD9097B3E0E0039D32E /* AUControlGroup.cpp */,
+				24D27CDB097B3E0E0039D32E /* CarbonEventHandler.cpp */,
+				24D27CD5097B3E0E0039D32E /* AUCarbonViewBase.h */,
+				24D27CD7097B3E0E0039D32E /* AUCarbonViewControl.h */,
+				24D27CDA097B3E0E0039D32E /* AUControlGroup.h */,
+				24D27CDC097B3E0E0039D32E /* CarbonEventHandler.h */,
+			);
+			name = AUCarbonViewBase;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUCarbonViewBase;
+			sourceTree = "<absolute>";
+		};
+		24D27CDD097B3E0E0039D32E /* AUViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CDE097B3E0E0039D32E /* AUViewLocalizedStringKeys.h */,
+			);
+			name = AUViewBase;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUViewBase;
+			sourceTree = "<absolute>";
+		};
+		24D27CDF097B3E0E0039D32E /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CE0097B3E0E0039D32E /* AUEffectBase.cpp */,
+				24D27CE1097B3E0E0039D32E /* AUEffectBase.h */,
+			);
+			name = OtherBases;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/OtherBases;
+			sourceTree = "<absolute>";
+		};
+		24D27CE2097B3E0E0039D32E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CE3097B3E0E0039D32E /* AUBuffer.cpp */,
+				24D27CE4097B3E0E0039D32E /* AUBuffer.h */,
+				24D27CE5097B3E0E0039D32E /* AUDebugDispatcher.cpp */,
+				24D27CE6097B3E0E0039D32E /* AUDebugDispatcher.h */,
+				24D27CE7097B3E0E0039D32E /* AUInputFormatConverter.h */,
+				24D27CE8097B3E0E0039D32E /* AUSilentTimeout.h */,
+				24D27CE9097B3E0E0039D32E /* AUTimestampGenerator.h */,
+			);
+			name = Utility;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/Utility;
+			sourceTree = "<absolute>";
+		};
+		24D27CEA097B3E0E0039D32E /* Public Utility */ = {
+			isa = PBXGroup;
+			children = (
+				24D27CEB097B3E0E0039D32E /* CAAUParameter.cpp */,
+				24D27CEC097B3E0E0039D32E /* CAAUParameter.h */,
+				24D27CED097B3E0E0039D32E /* CAAudioChannelLayout.cpp */,
+				24D27CEE097B3E0E0039D32E /* CAAudioChannelLayout.h */,
+				24D27CEF097B3E0E0039D32E /* CAMutex.cpp */,
+				24D27CF0097B3E0E0039D32E /* CAMutex.h */,
+				24D27CF1097B3E0E0039D32E /* CAStreamBasicDescription.cpp */,
+				24D27CF2097B3E0E0039D32E /* CAStreamBasicDescription.h */,
+				24D27CF3097B3E0E0039D32E /* CAVectorUnitTypes.h */,
+				24D27CF4097B3E0E0039D32E /* CAVectorUnit.cpp */,
+				24D27CF5097B3E0E0039D32E /* CAVectorUnit.h */,
+			);
+			name = "Public Utility";
+			sourceTree = "<group>";
+		};
+		24D27DEA097B40C60039D32E /* AU */ = {
+			isa = PBXGroup;
+			children = (
+				24D27DEF097B40F80039D32E /* PulseDelay.exp */,
+				24D27DF0097B40F80039D32E /* PulseDelay.r */,
+				24D27C77097B1CEB0039D32E /* AU-Info.plist */,
+			);
+			name = AU;
+			sourceTree = "<group>";
+		};
+		24D27EE6097B4D120039D32E /* VST */ = {
+			isa = PBXGroup;
+			children = (
+				24CFB70307E7A0220081BD57 /* PkgInfo */,
+				8D01CCD10486CAD60068D4B7 /* VST-Info.plist */,
+			);
+			name = VST;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D01CCC70486CAD60068D4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407DEBA089929BA00EB68BF /* PulseDelayVST.h in Headers */,
+				24C0ABFB0964A83D002FAA1A /* PulseDelayCore.h in Headers */,
+				245B71C00965AA2B00E5733E /* defaults.h in Headers */,
+				24D14C42096D6D9600D7CD97 /* fxEnvelope.h in Headers */,
+				24F30A460AB9C7CE009BF892 /* effectCore.h in Headers */,
+				24F30A480AB9C7CE009BF892 /* eventManager.h in Headers */,
+				24F30A4A0AB9C7CE009BF892 /* pluginCore.h in Headers */,
+				24F30A520AB9C7CE009BF892 /* productDir.h in Headers */,
+				24F30A5D0AB9C7F3009BF892 /* aeffeditor.h in Headers */,
+				24F30A5F0AB9C7F3009BF892 /* audioeffect.h in Headers */,
+				24F30A610AB9C7F3009BF892 /* audioeffectx.h in Headers */,
+				24D1804E0AD2BF320021C368 /* xmlLogger.h in Headers */,
+				24D180500AD2BF320021C368 /* xmlWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24D27C75097B1CEB0039D32E /* PulseDelay-AU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D27C78097B1CED0039D32E /* Build configuration list for PBXNativeTarget "PulseDelay-AU" */;
+			buildPhases = (
+				24D27C72097B1CEB0039D32E /* Resources */,
+				24D27C73097B1CEB0039D32E /* Sources */,
+				24D27C74097B1CEB0039D32E /* Frameworks */,
+				24D27E03097B42240039D32E /* Rez */,
+				24D27E07097B423B0039D32E /* Install AU */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseDelay-AU";
+			productName = "PulseDelay-AU";
+			productReference = 24D27C76097B1CEB0039D32E /* PulseDelay.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D01CCC60486CAD60068D4B7 /* PulseDelay-VST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BEAAED08919AE700E695F9 /* Build configuration list for PBXNativeTarget "PulseDelay-VST" */;
+			buildPhases = (
+				8D01CCC70486CAD60068D4B7 /* Headers */,
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				8D01CCCF0486CAD60068D4B7 /* Rez */,
+				24CFB70807E7A07C0081BD57 /* Copy PkgInfo */,
+				24CFB70907E7A0AA0081BD57 /* Install VST */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseDelay-VST";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "FM-Chopper";
+			productReference = 2407DE920899296600EB68BF /* PulseDelay.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 24BEAAF108919AE700E695F9 /* Build configuration list for PBXProject "PulseDelay" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* FM-Chopper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D27C75097B1CEB0039D32E /* PulseDelay-AU */,
+				8D01CCC60486CAD60068D4B7 /* PulseDelay-VST */,
+				24E7A2A40A23AF44006C146F /* Make All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D27C72097B1CEB0039D32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2496C45B0A5528FB009E90E5 /* AU-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CFB70407E7A0220081BD57 /* PkgInfo in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		24D27E03097B42240039D32E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D27E11097B42600039D32E /* PulseDelay.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24CFB70807E7A07C0081BD57 /* Copy PkgInfo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy PkgInfo";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cp mac/PkgInfo $BUILT_PRODUCTS_DIR/$PRODUCT_NAME.vst/Contents/";
+		};
+		24CFB70907E7A0AA0081BD57 /* Install VST */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Install VST";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "rm -rf /Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.vst\ncp -r $BUILT_PRODUCTS_DIR/$PRODUCT_NAME.vst /Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.vst";
+		};
+		24D27E07097B423B0039D32E /* Install AU */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Install AU";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf /Library/Audio/Plug-ins/Components/$PROJECT_NAME.component\ncp -r $BUILT_PRODUCTS_DIR/$PROJECT_NAME.component /Library/Audio/Plug-ins/Components/$PROJECT_NAME.component";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D27C73097B1CEB0039D32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D27CF6097B3E0F0039D32E /* AUBase.cpp in Sources */,
+				24D27CF7097B3E0F0039D32E /* AUDispatch.cpp in Sources */,
+				24D27CF8097B3E0F0039D32E /* AUInputElement.cpp in Sources */,
+				24D27CF9097B3E0F0039D32E /* AUOutputElement.cpp in Sources */,
+				24D27CFA097B3E0F0039D32E /* AUScopeElement.cpp in Sources */,
+				24D27CFB097B3E0F0039D32E /* ComponentBase.cpp in Sources */,
+				24D27CFC097B3E0F0039D32E /* AUCarbonViewBase.cpp in Sources */,
+				24D27CFD097B3E0F0039D32E /* AUCarbonViewControl.cpp in Sources */,
+				24D27CFE097B3E0F0039D32E /* AUCarbonViewDispatch.cpp in Sources */,
+				24D27CFF097B3E0F0039D32E /* AUControlGroup.cpp in Sources */,
+				24D27D00097B3E0F0039D32E /* CarbonEventHandler.cpp in Sources */,
+				24D27D01097B3E0F0039D32E /* AUEffectBase.cpp in Sources */,
+				24D27D02097B3E0F0039D32E /* AUBuffer.cpp in Sources */,
+				24D27D03097B3E0F0039D32E /* AUDebugDispatcher.cpp in Sources */,
+				24D27D04097B3E0F0039D32E /* CAAUParameter.cpp in Sources */,
+				24D27D05097B3E0F0039D32E /* CAAudioChannelLayout.cpp in Sources */,
+				24D27D06097B3E0F0039D32E /* CAMutex.cpp in Sources */,
+				24D27D07097B3E0F0039D32E /* CAStreamBasicDescription.cpp in Sources */,
+				24D27D08097B3E0F0039D32E /* CAVectorUnit.cpp in Sources */,
+				24D27EE0097B4C8E0039D32E /* fxEnvelope.cpp in Sources */,
+				24D27EDF097B4C800039D32E /* PulseDelayCore.cpp in Sources */,
+				24D27E45097B449A0039D32E /* PulseDelayAU.cpp in Sources */,
+				24F30A350AB9C7CE009BF892 /* effectCore.cpp in Sources */,
+				24F30A360AB9C7CE009BF892 /* eventManager.cpp in Sources */,
+				24F30A370AB9C7CE009BF892 /* pluginCore.cpp in Sources */,
+				24F30A3D0AB9C7CE009BF892 /* productDir.cpp in Sources */,
+				24D180510AD2BF320021C368 /* xmlLogger.cpp in Sources */,
+				24D180520AD2BF320021C368 /* xmlWriter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407DEBB089929BA00EB68BF /* PulseDelayVST.cpp in Sources */,
+				24C0ABFC0964A83D002FAA1A /* PulseDelayCore.cpp in Sources */,
+				24D14C43096D6D9600D7CD97 /* fxEnvelope.cpp in Sources */,
+				24F30A450AB9C7CE009BF892 /* effectCore.cpp in Sources */,
+				24F30A470AB9C7CE009BF892 /* eventManager.cpp in Sources */,
+				24F30A490AB9C7CE009BF892 /* pluginCore.cpp in Sources */,
+				24F30A510AB9C7CE009BF892 /* productDir.cpp in Sources */,
+				24F30A5E0AB9C7F3009BF892 /* audioeffect.cpp in Sources */,
+				24F30A600AB9C7F3009BF892 /* audioeffectx.cpp in Sources */,
+				24F30A620AB9C7F3009BF892 /* vstplugmain.cpp in Sources */,
+				24D1804D0AD2BF320021C368 /* xmlLogger.cpp in Sources */,
+				24D1804F0AD2BF320021C368 /* xmlWriter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24E7A2A60A23AF49006C146F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D27C75097B1CEB0039D32E /* PulseDelay-AU */;
+			targetProxy = 24E7A2A50A23AF49006C146F /* PBXContainerItemProxy */;
+		};
+		24E7A2A80A23AF4A006C146F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D01CCC60486CAD60068D4B7 /* PulseDelay-VST */;
+			targetProxy = 24E7A2A70A23AF4A006C146F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24BEAAEE08919AE700E695F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					MAC,
+					MACX,
+					USE_PC_VST,
+					USE_PC_EVENTS,
+					USE_PC_EFFECTS,
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					../../PluginCore/trunk/source,
+					"../../libvst/trunk/source/**",
+				);
+				INFOPLIST_FILE = "mac/VST-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PulseDelay;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		24BEAAEF08919AE700E695F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MAC,
+					MACX,
+					USE_PC_VST,
+					USE_PC_EVENTS,
+					USE_PC_EFFECTS,
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					../../PluginCore/trunk/source,
+					"../../libvst/trunk/source/**",
+				);
+				INFOPLIST_FILE = "mac/VST-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PulseDelay;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		24BEAAF208919AE700E695F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		24BEAAF308919AE700E695F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		24D27C79097B1CED0039D32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = ./mac/PulseDelay.exp;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./mac/xcode_au_prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					MAC,
+					MACX,
+					USE_PC_AU,
+					USE_PC_EVENTS,
+					USE_PC_EFFECTS,
+				);
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../../PluginCore/trunk/source;
+				INFOPLIST_FILE = "./mac/AU-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase -D  TARGET_REZ_MAC_PPC=1";
+				PREBINDING = YES;
+				PRODUCT_NAME = PulseDelay;
+				REZ_PREPROCESSOR_DEFINITIONS = "DEBUG MAC MACX USE_PC_AU USE_PC_EVENTS USE_PC_EFFECTS";
+				REZ_SEARCH_PATHS = (
+					/System/Library/Frameworks/CoreServices.framework/Versions/CarbonCore.framework/Versions/A/Headers,
+					/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase,
+				);
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		24D27C7A097B1CED0039D32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUGGING_SYMBOLS = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXPORTED_SYMBOLS_FILE = ./mac/PulseDelay.exp;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./mac/xcode_au_prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MAC,
+					MACX,
+					USE_PC_AU,
+					USE_PC_EVENTS,
+					USE_PC_EFFECTS,
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../../PluginCore/trunk/source;
+				INFOPLIST_FILE = "./mac/AU-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase -D  TARGET_REZ_MAC_PPC=1";
+				PREBINDING = YES;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = PulseDelay;
+				REZ_PREPROCESSOR_DEFINITIONS = "MAC MACX USE_PC_AU USE_PC_EVENTS USE_PC_EFFECTS";
+				REZ_SEARCH_PATHS = (
+					/System/Library/Frameworks/CoreServices.framework/Versions/CarbonCore.framework/Versions/A/Headers,
+					/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase,
+				);
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		24E7A2BE0A23AF87006C146F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Make All";
+			};
+			name = Debug;
+		};
+		24E7A2BF0A23AF87006C146F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Make All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BEAAED08919AE700E695F9 /* Build configuration list for PBXNativeTarget "PulseDelay-VST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BEAAEE08919AE700E695F9 /* Debug */,
+				24BEAAEF08919AE700E695F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24BEAAF108919AE700E695F9 /* Build configuration list for PBXProject "PulseDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BEAAF208919AE700E695F9 /* Debug */,
+				24BEAAF308919AE700E695F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24D27C78097B1CED0039D32E /* Build configuration list for PBXNativeTarget "PulseDelay-AU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D27C79097B1CED0039D32E /* Debug */,
+				24D27C7A097B1CED0039D32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24E7A2BD0A23AF87006C146F /* Build configuration list for PBXAggregateTarget "Make All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E7A2BE0A23AF87006C146F /* Debug */,
+				24E7A2BF0A23AF87006C146F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
