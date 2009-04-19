@@ -31,12 +31,6 @@
 		24CFB70407E7A0220081BD57 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 24CFB70307E7A0220081BD57 /* PkgInfo */; };
 		24D14C42096D6D9600D7CD97 /* fxEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D14C40096D6D9600D7CD97 /* fxEnvelope.h */; };
 		24D14C43096D6D9600D7CD97 /* fxEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */; };
-		24D1804D0AD2BF320021C368 /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D180490AD2BF320021C368 /* xmlLogger.cpp */; };
-		24D1804E0AD2BF320021C368 /* xmlLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D1804A0AD2BF320021C368 /* xmlLogger.h */; };
-		24D1804F0AD2BF320021C368 /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D1804B0AD2BF320021C368 /* xmlWriter.cpp */; };
-		24D180500AD2BF320021C368 /* xmlWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D1804C0AD2BF320021C368 /* xmlWriter.h */; };
-		24D180510AD2BF320021C368 /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D180490AD2BF320021C368 /* xmlLogger.cpp */; };
-		24D180520AD2BF320021C368 /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D1804B0AD2BF320021C368 /* xmlWriter.cpp */; };
 		24D27CF6097B3E0F0039D32E /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC6097B3E0E0039D32E /* AUBase.cpp */; };
 		24D27CF7097B3E0F0039D32E /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC7097B3E0E0039D32E /* AUDispatch.cpp */; };
 		24D27CF8097B3E0F0039D32E /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D27CC8097B3E0E0039D32E /* AUInputElement.cpp */; };
@@ -65,24 +59,64 @@
 		24D27EDF097B4C800039D32E /* PulseDelayCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24C0ABFA0964A83D002FAA1A /* PulseDelayCore.cpp */; };
 		24D27EE0097B4C8E0039D32E /* fxEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */; };
 		24D28029097C26C80039D32E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
-		24F30A350AB9C7CE009BF892 /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A210AB9C7CE009BF892 /* effectCore.cpp */; };
-		24F30A360AB9C7CE009BF892 /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A230AB9C7CE009BF892 /* eventManager.cpp */; };
-		24F30A370AB9C7CE009BF892 /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A250AB9C7CE009BF892 /* pluginCore.cpp */; };
-		24F30A3D0AB9C7CE009BF892 /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A2D0AB9C7CE009BF892 /* productDir.cpp */; };
-		24F30A450AB9C7CE009BF892 /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A210AB9C7CE009BF892 /* effectCore.cpp */; };
-		24F30A460AB9C7CE009BF892 /* effectCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A220AB9C7CE009BF892 /* effectCore.h */; };
-		24F30A470AB9C7CE009BF892 /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A230AB9C7CE009BF892 /* eventManager.cpp */; };
-		24F30A480AB9C7CE009BF892 /* eventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A240AB9C7CE009BF892 /* eventManager.h */; };
-		24F30A490AB9C7CE009BF892 /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A250AB9C7CE009BF892 /* pluginCore.cpp */; };
-		24F30A4A0AB9C7CE009BF892 /* pluginCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A260AB9C7CE009BF892 /* pluginCore.h */; };
-		24F30A510AB9C7CE009BF892 /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A2D0AB9C7CE009BF892 /* productDir.cpp */; };
-		24F30A520AB9C7CE009BF892 /* productDir.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A2E0AB9C7CE009BF892 /* productDir.h */; };
-		24F30A5D0AB9C7F3009BF892 /* aeffeditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A570AB9C7F3009BF892 /* aeffeditor.h */; };
-		24F30A5E0AB9C7F3009BF892 /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A580AB9C7F3009BF892 /* audioeffect.cpp */; };
-		24F30A5F0AB9C7F3009BF892 /* audioeffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A590AB9C7F3009BF892 /* audioeffect.h */; };
-		24F30A600AB9C7F3009BF892 /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */; };
-		24F30A610AB9C7F3009BF892 /* audioeffectx.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */; };
-		24F30A620AB9C7F3009BF892 /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */; };
+		24E458F00F9B73D3008F34CE /* appMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458D80F9B73D3008F34CE /* appMac.cpp */; };
+		24E458F10F9B73D3008F34CE /* auLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DA0F9B73D3008F34CE /* auLoader.cpp */; };
+		24E458F20F9B73D3008F34CE /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DC0F9B73D3008F34CE /* effectCore.cpp */; };
+		24E458F30F9B73D3008F34CE /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DE0F9B73D3008F34CE /* eventManager.cpp */; };
+		24E458F40F9B73D3008F34CE /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E00F9B73D3008F34CE /* pluginCore.cpp */; };
+		24E458F50F9B73D3008F34CE /* pluginCoreMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E20F9B73D3008F34CE /* pluginCoreMidi.cpp */; };
+		24E458F60F9B73D3008F34CE /* pluginCorePreset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E30F9B73D3008F34CE /* pluginCorePreset.cpp */; };
+		24E458F70F9B73D3008F34CE /* pluginLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E40F9B73D3008F34CE /* pluginLoader.cpp */; };
+		24E458F80F9B73D3008F34CE /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E60F9B73D3008F34CE /* productDir.cpp */; };
+		24E458F90F9B73D3008F34CE /* vstLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E80F9B73D3008F34CE /* vstLoader.cpp */; };
+		24E458FA0F9B73D3008F34CE /* vstLoaderEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EA0F9B73D3008F34CE /* vstLoaderEditor.cpp */; };
+		24E458FB0F9B73D3008F34CE /* vstLoaderHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EB0F9B73D3008F34CE /* vstLoaderHost.cpp */; };
+		24E458FC0F9B73D3008F34CE /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EC0F9B73D3008F34CE /* xmlLogger.cpp */; };
+		24E458FD0F9B73D3008F34CE /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EE0F9B73D3008F34CE /* xmlWriter.cpp */; };
+		24E458FE0F9B73D3008F34CE /* appMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458D80F9B73D3008F34CE /* appMac.cpp */; };
+		24E458FF0F9B73D3008F34CE /* appMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458D90F9B73D3008F34CE /* appMac.h */; };
+		24E459000F9B73D3008F34CE /* auLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DA0F9B73D3008F34CE /* auLoader.cpp */; };
+		24E459010F9B73D3008F34CE /* auLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458DB0F9B73D3008F34CE /* auLoader.h */; };
+		24E459020F9B73D3008F34CE /* effectCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DC0F9B73D3008F34CE /* effectCore.cpp */; };
+		24E459030F9B73D3008F34CE /* effectCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458DD0F9B73D3008F34CE /* effectCore.h */; };
+		24E459040F9B73D3008F34CE /* eventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458DE0F9B73D3008F34CE /* eventManager.cpp */; };
+		24E459050F9B73D3008F34CE /* eventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458DF0F9B73D3008F34CE /* eventManager.h */; };
+		24E459060F9B73D3008F34CE /* pluginCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E00F9B73D3008F34CE /* pluginCore.cpp */; };
+		24E459070F9B73D3008F34CE /* pluginCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458E10F9B73D3008F34CE /* pluginCore.h */; };
+		24E459080F9B73D3008F34CE /* pluginCoreMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E20F9B73D3008F34CE /* pluginCoreMidi.cpp */; };
+		24E459090F9B73D3008F34CE /* pluginCorePreset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E30F9B73D3008F34CE /* pluginCorePreset.cpp */; };
+		24E4590A0F9B73D3008F34CE /* pluginLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E40F9B73D3008F34CE /* pluginLoader.cpp */; };
+		24E4590B0F9B73D3008F34CE /* pluginLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458E50F9B73D3008F34CE /* pluginLoader.h */; };
+		24E4590C0F9B73D3008F34CE /* productDir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E60F9B73D3008F34CE /* productDir.cpp */; };
+		24E4590D0F9B73D3008F34CE /* productDir.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458E70F9B73D3008F34CE /* productDir.h */; };
+		24E4590E0F9B73D3008F34CE /* vstLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458E80F9B73D3008F34CE /* vstLoader.cpp */; };
+		24E4590F0F9B73D3008F34CE /* vstLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458E90F9B73D3008F34CE /* vstLoader.h */; };
+		24E459100F9B73D3008F34CE /* vstLoaderEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EA0F9B73D3008F34CE /* vstLoaderEditor.cpp */; };
+		24E459110F9B73D3008F34CE /* vstLoaderHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EB0F9B73D3008F34CE /* vstLoaderHost.cpp */; };
+		24E459120F9B73D3008F34CE /* xmlLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EC0F9B73D3008F34CE /* xmlLogger.cpp */; };
+		24E459130F9B73D3008F34CE /* xmlLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458ED0F9B73D3008F34CE /* xmlLogger.h */; };
+		24E459140F9B73D3008F34CE /* xmlWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E458EE0F9B73D3008F34CE /* xmlWriter.cpp */; };
+		24E459150F9B73D3008F34CE /* xmlWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E458EF0F9B73D3008F34CE /* xmlWriter.h */; };
+		24E45BD20F9B768E008F34CE /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A370F9B7632008F34CE /* audioeffect.cpp */; };
+		24E45BD30F9B768E008F34CE /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A390F9B7632008F34CE /* audioeffectx.cpp */; };
+		24E45BD40F9B768E008F34CE /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A3B0F9B7632008F34CE /* vstplugmain.cpp */; };
+		24E45BD50F9B769F008F34CE /* cfileselector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A780F9B7632008F34CE /* cfileselector.cpp */; };
+		24E45BD60F9B769F008F34CE /* cscrollview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A7B0F9B7632008F34CE /* cscrollview.cpp */; };
+		24E45BD70F9B769F008F34CE /* ctabview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A7D0F9B7632008F34CE /* ctabview.cpp */; };
+		24E45BD90F9B769F008F34CE /* vstgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45BA90F9B7633008F34CE /* vstgui.cpp */; };
+		24E45BDA0F9B769F008F34CE /* cfileselector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A780F9B7632008F34CE /* cfileselector.cpp */; };
+		24E45BDB0F9B769F008F34CE /* cscrollview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A7B0F9B7632008F34CE /* cscrollview.cpp */; };
+		24E45BDC0F9B769F008F34CE /* ctabview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A7D0F9B7632008F34CE /* ctabview.cpp */; };
+		24E45BDD0F9B769F008F34CE /* plugguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45BA50F9B7633008F34CE /* plugguieditor.cpp */; };
+		24E45BDE0F9B769F008F34CE /* vstgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45BA90F9B7633008F34CE /* vstgui.cpp */; };
+		24E45BDF0F9B76A9008F34CE /* vstcontrols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45BA70F9B7633008F34CE /* vstcontrols.cpp */; };
+		24E45BE00F9B76AA008F34CE /* vstcontrols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45BA70F9B7633008F34CE /* vstcontrols.cpp */; };
+		24E45BE20F9B76B9008F34CE /* aeffguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24E45A760F9B7632008F34CE /* aeffguieditor.cpp */; };
+		24E45BED0F9B7835008F34CE /* xcode_vst_prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E45BEC0F9B7835008F34CE /* xcode_vst_prefix.h */; };
+		24E45CC90F9B79D0008F34CE /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E45CC80F9B79D0008F34CE /* QuickTime.framework */; };
+		24E45CCA0F9B79D0008F34CE /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E45CC80F9B79D0008F34CE /* QuickTime.framework */; };
+		24E45CF10F9B79D9008F34CE /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E45CF00F9B79D9008F34CE /* System.framework */; };
+		24E45CF20F9B79D9008F34CE /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E45CF00F9B79D9008F34CE /* System.framework */; };
 		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,12 +148,8 @@
 		24CFB70307E7A0220081BD57 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PkgInfo; path = mac/PkgInfo; sourceTree = "<group>"; };
 		24D14C40096D6D9600D7CD97 /* fxEnvelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fxEnvelope.h; path = source/fxEnvelope.h; sourceTree = "<group>"; };
 		24D14C41096D6D9600D7CD97 /* fxEnvelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fxEnvelope.cpp; path = source/fxEnvelope.cpp; sourceTree = "<group>"; };
-		24D180490AD2BF320021C368 /* xmlLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = xmlLogger.cpp; path = trunk/source/xmlLogger.cpp; sourceTree = "<group>"; };
-		24D1804A0AD2BF320021C368 /* xmlLogger.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = xmlLogger.h; path = trunk/source/xmlLogger.h; sourceTree = "<group>"; };
-		24D1804B0AD2BF320021C368 /* xmlWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = xmlWriter.cpp; path = trunk/source/xmlWriter.cpp; sourceTree = "<group>"; };
-		24D1804C0AD2BF320021C368 /* xmlWriter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = xmlWriter.h; path = trunk/source/xmlWriter.h; sourceTree = "<group>"; };
 		24D27C76097B1CEB0039D32E /* PulseDelay.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseDelay.component; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D27C77097B1CEB0039D32E /* AU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "AU-Info.plist"; path = "mac/AU-Info.plist"; sourceTree = "<group>"; };
+		24D27C77097B1CEB0039D32E /* AU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AU-Info.plist"; path = "mac/AU-Info.plist"; sourceTree = "<group>"; };
 		24D27CC6097B3E0E0039D32E /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUBase.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUBase.cpp; sourceTree = "<absolute>"; };
 		24D27CC7097B3E0E0039D32E /* AUDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUDispatch.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUDispatch.cpp; sourceTree = "<absolute>"; };
 		24D27CC8097B3E0E0039D32E /* AUInputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AUInputElement.cpp; path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUInputElement.cpp; sourceTree = "<absolute>"; };
@@ -171,21 +201,63 @@
 		24D27DF0097B40F80039D32E /* PulseDelay.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = PulseDelay.r; path = mac/PulseDelay.r; sourceTree = SOURCE_ROOT; };
 		24D27E43097B449A0039D32E /* PulseDelayAU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PulseDelayAU.h; path = source/PulseDelayAU.h; sourceTree = "<group>"; };
 		24D27E44097B449A0039D32E /* PulseDelayAU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PulseDelayAU.cpp; path = source/PulseDelayAU.cpp; sourceTree = "<group>"; };
-		24F30A210AB9C7CE009BF892 /* effectCore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = effectCore.cpp; path = trunk/source/effectCore.cpp; sourceTree = "<group>"; };
-		24F30A220AB9C7CE009BF892 /* effectCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = effectCore.h; path = trunk/source/effectCore.h; sourceTree = "<group>"; };
-		24F30A230AB9C7CE009BF892 /* eventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = eventManager.cpp; path = trunk/source/eventManager.cpp; sourceTree = "<group>"; };
-		24F30A240AB9C7CE009BF892 /* eventManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = eventManager.h; path = trunk/source/eventManager.h; sourceTree = "<group>"; };
-		24F30A250AB9C7CE009BF892 /* pluginCore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = pluginCore.cpp; path = trunk/source/pluginCore.cpp; sourceTree = "<group>"; };
-		24F30A260AB9C7CE009BF892 /* pluginCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = pluginCore.h; path = trunk/source/pluginCore.h; sourceTree = "<group>"; };
-		24F30A2D0AB9C7CE009BF892 /* productDir.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = productDir.cpp; path = trunk/source/productDir.cpp; sourceTree = "<group>"; };
-		24F30A2E0AB9C7CE009BF892 /* productDir.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = productDir.h; path = trunk/source/productDir.h; sourceTree = "<group>"; };
-		24F30A570AB9C7F3009BF892 /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffeditor.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/aeffeditor.h; sourceTree = SOURCE_ROOT; };
-		24F30A580AB9C7F3009BF892 /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffect.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffect.cpp; sourceTree = SOURCE_ROOT; };
-		24F30A590AB9C7F3009BF892 /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffect.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffect.h; sourceTree = SOURCE_ROOT; };
-		24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffectx.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffectx.cpp; sourceTree = SOURCE_ROOT; };
-		24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffectx.h; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/audioeffectx.h; sourceTree = SOURCE_ROOT; };
-		24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstplugmain.cpp; path = ../../libvst/trunk/source/public.sdk/source/vst2.x/vstplugmain.cpp; sourceTree = SOURCE_ROOT; };
-		8D01CCD10486CAD60068D4B7 /* VST-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "VST-Info.plist"; path = "mac/VST-Info.plist"; sourceTree = "<group>"; };
+		24E458D80F9B73D3008F34CE /* appMac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = appMac.cpp; path = plugincore/source/appMac.cpp; sourceTree = "<group>"; };
+		24E458D90F9B73D3008F34CE /* appMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = appMac.h; path = plugincore/source/appMac.h; sourceTree = "<group>"; };
+		24E458DA0F9B73D3008F34CE /* auLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = auLoader.cpp; path = plugincore/source/auLoader.cpp; sourceTree = "<group>"; };
+		24E458DB0F9B73D3008F34CE /* auLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auLoader.h; path = plugincore/source/auLoader.h; sourceTree = "<group>"; };
+		24E458DC0F9B73D3008F34CE /* effectCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = effectCore.cpp; path = plugincore/source/effectCore.cpp; sourceTree = "<group>"; };
+		24E458DD0F9B73D3008F34CE /* effectCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effectCore.h; path = plugincore/source/effectCore.h; sourceTree = "<group>"; };
+		24E458DE0F9B73D3008F34CE /* eventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = eventManager.cpp; path = plugincore/source/eventManager.cpp; sourceTree = "<group>"; };
+		24E458DF0F9B73D3008F34CE /* eventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eventManager.h; path = plugincore/source/eventManager.h; sourceTree = "<group>"; };
+		24E458E00F9B73D3008F34CE /* pluginCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginCore.cpp; path = plugincore/source/pluginCore.cpp; sourceTree = "<group>"; };
+		24E458E10F9B73D3008F34CE /* pluginCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginCore.h; path = plugincore/source/pluginCore.h; sourceTree = "<group>"; };
+		24E458E20F9B73D3008F34CE /* pluginCoreMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginCoreMidi.cpp; path = plugincore/source/pluginCoreMidi.cpp; sourceTree = "<group>"; };
+		24E458E30F9B73D3008F34CE /* pluginCorePreset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginCorePreset.cpp; path = plugincore/source/pluginCorePreset.cpp; sourceTree = "<group>"; };
+		24E458E40F9B73D3008F34CE /* pluginLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginLoader.cpp; path = plugincore/source/pluginLoader.cpp; sourceTree = "<group>"; };
+		24E458E50F9B73D3008F34CE /* pluginLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginLoader.h; path = plugincore/source/pluginLoader.h; sourceTree = "<group>"; };
+		24E458E60F9B73D3008F34CE /* productDir.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = productDir.cpp; path = plugincore/source/productDir.cpp; sourceTree = "<group>"; };
+		24E458E70F9B73D3008F34CE /* productDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = productDir.h; path = plugincore/source/productDir.h; sourceTree = "<group>"; };
+		24E458E80F9B73D3008F34CE /* vstLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstLoader.cpp; path = plugincore/source/vstLoader.cpp; sourceTree = "<group>"; };
+		24E458E90F9B73D3008F34CE /* vstLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstLoader.h; path = plugincore/source/vstLoader.h; sourceTree = "<group>"; };
+		24E458EA0F9B73D3008F34CE /* vstLoaderEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstLoaderEditor.cpp; path = plugincore/source/vstLoaderEditor.cpp; sourceTree = "<group>"; };
+		24E458EB0F9B73D3008F34CE /* vstLoaderHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstLoaderHost.cpp; path = plugincore/source/vstLoaderHost.cpp; sourceTree = "<group>"; };
+		24E458EC0F9B73D3008F34CE /* xmlLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmlLogger.cpp; path = plugincore/source/xmlLogger.cpp; sourceTree = "<group>"; };
+		24E458ED0F9B73D3008F34CE /* xmlLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlLogger.h; path = plugincore/source/xmlLogger.h; sourceTree = "<group>"; };
+		24E458EE0F9B73D3008F34CE /* xmlWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmlWriter.cpp; path = plugincore/source/xmlWriter.cpp; sourceTree = "<group>"; };
+		24E458EF0F9B73D3008F34CE /* xmlWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlWriter.h; path = plugincore/source/xmlWriter.h; sourceTree = "<group>"; };
+		24E459EF0F9B7631008F34CE /* aeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffect.h; sourceTree = "<group>"; };
+		24E459F00F9B7631008F34CE /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffectx.h; sourceTree = "<group>"; };
+		24E459F10F9B7631008F34CE /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstfxstore.h; sourceTree = "<group>"; };
+		24E45A360F9B7632008F34CE /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffeditor.h; sourceTree = "<group>"; };
+		24E45A370F9B7632008F34CE /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffect.cpp; sourceTree = "<group>"; };
+		24E45A380F9B7632008F34CE /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffect.h; sourceTree = "<group>"; };
+		24E45A390F9B7632008F34CE /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffectx.cpp; sourceTree = "<group>"; };
+		24E45A3A0F9B7632008F34CE /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffectx.h; sourceTree = "<group>"; };
+		24E45A3B0F9B7632008F34CE /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstplugmain.cpp; sourceTree = "<group>"; };
+		24E45A760F9B7632008F34CE /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aeffguieditor.cpp; sourceTree = "<group>"; };
+		24E45A770F9B7632008F34CE /* aeffguieditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffguieditor.h; sourceTree = "<group>"; };
+		24E45A780F9B7632008F34CE /* cfileselector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfileselector.cpp; sourceTree = "<group>"; };
+		24E45A790F9B7632008F34CE /* cfileselector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfileselector.h; sourceTree = "<group>"; };
+		24E45A7B0F9B7632008F34CE /* cscrollview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cscrollview.cpp; sourceTree = "<group>"; };
+		24E45A7C0F9B7632008F34CE /* cscrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cscrollview.h; sourceTree = "<group>"; };
+		24E45A7D0F9B7632008F34CE /* ctabview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctabview.cpp; sourceTree = "<group>"; };
+		24E45A7E0F9B7632008F34CE /* ctabview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctabview.h; sourceTree = "<group>"; };
+		24E45BA50F9B7633008F34CE /* plugguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plugguieditor.cpp; sourceTree = "<group>"; };
+		24E45BA60F9B7633008F34CE /* plugguieditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugguieditor.h; sourceTree = "<group>"; };
+		24E45BA70F9B7633008F34CE /* vstcontrols.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstcontrols.cpp; sourceTree = "<group>"; };
+		24E45BA80F9B7633008F34CE /* vstcontrols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstcontrols.h; sourceTree = "<group>"; };
+		24E45BA90F9B7633008F34CE /* vstgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstgui.cpp; sourceTree = "<group>"; };
+		24E45BAA0F9B7633008F34CE /* vstgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstgui.h; sourceTree = "<group>"; };
+		24E45BAB0F9B7633008F34CE /* vstkeycode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstkeycode.h; sourceTree = "<group>"; };
+		24E45BAC0F9B7633008F34CE /* vstplugscarbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstplugscarbon.h; sourceTree = "<group>"; };
+		24E45BAD0F9B7633008F34CE /* vstplugsmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstplugsmac.h; sourceTree = "<group>"; };
+		24E45BAE0F9B7633008F34CE /* vstplugsmacho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstplugsmacho.h; sourceTree = "<group>"; };
+		24E45BAF0F9B7633008F34CE /* vstplugsquartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstplugsquartz.h; sourceTree = "<group>"; };
+		24E45BEB0F9B7827008F34CE /* xcode_au_prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xcode_au_prefix.h; path = mac/xcode_au_prefix.h; sourceTree = "<group>"; };
+		24E45BEC0F9B7835008F34CE /* xcode_vst_prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xcode_vst_prefix.h; path = mac/xcode_vst_prefix.h; sourceTree = "<group>"; };
+		24E45CC80F9B79D0008F34CE /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = "<group>"; };
+		24E45CF00F9B79D9008F34CE /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = ../../../../System/Library/Frameworks/System.framework; sourceTree = "<group>"; };
+		8D01CCD10486CAD60068D4B7 /* VST-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VST-Info.plist"; path = "mac/VST-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +270,8 @@
 				24D27DE1097B40500039D32E /* CoreServices.framework in Frameworks */,
 				24D27DE2097B40500039D32E /* AudioToolbox.framework in Frameworks */,
 				24D27DE3097B40500039D32E /* AudioUnit.framework in Frameworks */,
+				24E45CCA0F9B79D0008F34CE /* QuickTime.framework in Frameworks */,
+				24E45CF20F9B79D9008F34CE /* System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+				24E45CC90F9B79D0008F34CE /* QuickTime.framework in Frameworks */,
+				24E45CF10F9B79D9008F34CE /* System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,11 +293,11 @@
 			children = (
 				24D27CC3097B3E0E0039D32E /* AU Source */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				24E458D10F9B738D008F34CE /* plugincore */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				08FB77ADFE841716C02AAC07 /* Source */,
-				24101DA509624FDD001F677D /* PluginCore */,
-				24CFB71B07E7A1BC0081BD57 /* VST Source */,
+				24E459190F9B7630008F34CE /* vstsdk2.4 */,
 			);
 			name = "FM-Chopper";
 			sourceTree = "<group>";
@@ -234,6 +310,8 @@
 				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
 				24D27DDC097B40500039D32E /* CoreAudio.framework */,
 				24D27DDD097B40500039D32E /* CoreServices.framework */,
+				24E45CC80F9B79D0008F34CE /* QuickTime.framework */,
+				24E45CF00F9B79D9008F34CE /* System.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -270,39 +348,6 @@
 				24D27C76097B1CEB0039D32E /* PulseDelay.component */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		24101DA509624FDD001F677D /* PluginCore */ = {
-			isa = PBXGroup;
-			children = (
-				24F30A210AB9C7CE009BF892 /* effectCore.cpp */,
-				24F30A230AB9C7CE009BF892 /* eventManager.cpp */,
-				24F30A250AB9C7CE009BF892 /* pluginCore.cpp */,
-				24F30A2D0AB9C7CE009BF892 /* productDir.cpp */,
-				24D180490AD2BF320021C368 /* xmlLogger.cpp */,
-				24D1804B0AD2BF320021C368 /* xmlWriter.cpp */,
-				24F30A220AB9C7CE009BF892 /* effectCore.h */,
-				24F30A240AB9C7CE009BF892 /* eventManager.h */,
-				24F30A260AB9C7CE009BF892 /* pluginCore.h */,
-				24F30A2E0AB9C7CE009BF892 /* productDir.h */,
-				24D1804A0AD2BF320021C368 /* xmlLogger.h */,
-				24D1804C0AD2BF320021C368 /* xmlWriter.h */,
-			);
-			name = PluginCore;
-			path = ../../PluginCore;
-			sourceTree = "<group>";
-		};
-		24CFB71B07E7A1BC0081BD57 /* VST Source */ = {
-			isa = PBXGroup;
-			children = (
-				24F30A570AB9C7F3009BF892 /* aeffeditor.h */,
-				24F30A580AB9C7F3009BF892 /* audioeffect.cpp */,
-				24F30A590AB9C7F3009BF892 /* audioeffect.h */,
-				24F30A5A0AB9C7F3009BF892 /* audioeffectx.cpp */,
-				24F30A5B0AB9C7F3009BF892 /* audioeffectx.h */,
-				24F30A5C0AB9C7F3009BF892 /* vstplugmain.cpp */,
-			);
-			name = "VST Source";
 			sourceTree = "<group>";
 		};
 		24D27CC3097B3E0E0039D32E /* AU Source */ = {
@@ -420,6 +465,7 @@
 		24D27DEA097B40C60039D32E /* AU */ = {
 			isa = PBXGroup;
 			children = (
+				24E45BEB0F9B7827008F34CE /* xcode_au_prefix.h */,
 				24D27DEF097B40F80039D32E /* PulseDelay.exp */,
 				24D27DF0097B40F80039D32E /* PulseDelay.r */,
 				24D27C77097B1CEB0039D32E /* AU-Info.plist */,
@@ -432,8 +478,131 @@
 			children = (
 				24CFB70307E7A0220081BD57 /* PkgInfo */,
 				8D01CCD10486CAD60068D4B7 /* VST-Info.plist */,
+				24E45BEC0F9B7835008F34CE /* xcode_vst_prefix.h */,
 			);
 			name = VST;
+			sourceTree = "<group>";
+		};
+		24E458D10F9B738D008F34CE /* plugincore */ = {
+			isa = PBXGroup;
+			children = (
+				24E458D80F9B73D3008F34CE /* appMac.cpp */,
+				24E458DA0F9B73D3008F34CE /* auLoader.cpp */,
+				24E458DC0F9B73D3008F34CE /* effectCore.cpp */,
+				24E458DE0F9B73D3008F34CE /* eventManager.cpp */,
+				24E458E00F9B73D3008F34CE /* pluginCore.cpp */,
+				24E458E20F9B73D3008F34CE /* pluginCoreMidi.cpp */,
+				24E458E30F9B73D3008F34CE /* pluginCorePreset.cpp */,
+				24E458E40F9B73D3008F34CE /* pluginLoader.cpp */,
+				24E458E60F9B73D3008F34CE /* productDir.cpp */,
+				24E458E80F9B73D3008F34CE /* vstLoader.cpp */,
+				24E458EA0F9B73D3008F34CE /* vstLoaderEditor.cpp */,
+				24E458EB0F9B73D3008F34CE /* vstLoaderHost.cpp */,
+				24E458EC0F9B73D3008F34CE /* xmlLogger.cpp */,
+				24E458EE0F9B73D3008F34CE /* xmlWriter.cpp */,
+				24E458D90F9B73D3008F34CE /* appMac.h */,
+				24E458DB0F9B73D3008F34CE /* auLoader.h */,
+				24E458DD0F9B73D3008F34CE /* effectCore.h */,
+				24E458DF0F9B73D3008F34CE /* eventManager.h */,
+				24E458E10F9B73D3008F34CE /* pluginCore.h */,
+				24E458E50F9B73D3008F34CE /* pluginLoader.h */,
+				24E458E70F9B73D3008F34CE /* productDir.h */,
+				24E458E90F9B73D3008F34CE /* vstLoader.h */,
+				24E458ED0F9B73D3008F34CE /* xmlLogger.h */,
+				24E458EF0F9B73D3008F34CE /* xmlWriter.h */,
+			);
+			name = plugincore;
+			sourceTree = "<group>";
+		};
+		24E459190F9B7630008F34CE /* vstsdk2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				24E459ED0F9B7631008F34CE /* pluginterfaces */,
+				24E459F20F9B7631008F34CE /* public.sdk */,
+				24E45A3D0F9B7632008F34CE /* vstgui.sf */,
+			);
+			path = vstsdk2.4;
+			sourceTree = "<group>";
+		};
+		24E459ED0F9B7631008F34CE /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				24E459EE0F9B7631008F34CE /* vst2.x */,
+			);
+			path = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		24E459EE0F9B7631008F34CE /* vst2.x */ = {
+			isa = PBXGroup;
+			children = (
+				24E459EF0F9B7631008F34CE /* aeffect.h */,
+				24E459F00F9B7631008F34CE /* aeffectx.h */,
+				24E459F10F9B7631008F34CE /* vstfxstore.h */,
+			);
+			path = vst2.x;
+			sourceTree = "<group>";
+		};
+		24E459F20F9B7631008F34CE /* public.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				24E45A340F9B7632008F34CE /* source */,
+			);
+			path = public.sdk;
+			sourceTree = "<group>";
+		};
+		24E45A340F9B7632008F34CE /* source */ = {
+			isa = PBXGroup;
+			children = (
+				24E45A350F9B7632008F34CE /* vst2.x */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		24E45A350F9B7632008F34CE /* vst2.x */ = {
+			isa = PBXGroup;
+			children = (
+				24E45A370F9B7632008F34CE /* audioeffect.cpp */,
+				24E45A390F9B7632008F34CE /* audioeffectx.cpp */,
+				24E45A3B0F9B7632008F34CE /* vstplugmain.cpp */,
+				24E45A360F9B7632008F34CE /* aeffeditor.h */,
+				24E45A380F9B7632008F34CE /* audioeffect.h */,
+				24E45A3A0F9B7632008F34CE /* audioeffectx.h */,
+			);
+			path = vst2.x;
+			sourceTree = "<group>";
+		};
+		24E45A3D0F9B7632008F34CE /* vstgui.sf */ = {
+			isa = PBXGroup;
+			children = (
+				24E45A750F9B7632008F34CE /* vstgui */,
+			);
+			path = vstgui.sf;
+			sourceTree = "<group>";
+		};
+		24E45A750F9B7632008F34CE /* vstgui */ = {
+			isa = PBXGroup;
+			children = (
+				24E45A760F9B7632008F34CE /* aeffguieditor.cpp */,
+				24E45A780F9B7632008F34CE /* cfileselector.cpp */,
+				24E45A7B0F9B7632008F34CE /* cscrollview.cpp */,
+				24E45A7D0F9B7632008F34CE /* ctabview.cpp */,
+				24E45BA50F9B7633008F34CE /* plugguieditor.cpp */,
+				24E45BA70F9B7633008F34CE /* vstcontrols.cpp */,
+				24E45BA90F9B7633008F34CE /* vstgui.cpp */,
+				24E45A770F9B7632008F34CE /* aeffguieditor.h */,
+				24E45A790F9B7632008F34CE /* cfileselector.h */,
+				24E45A7C0F9B7632008F34CE /* cscrollview.h */,
+				24E45A7E0F9B7632008F34CE /* ctabview.h */,
+				24E45BA60F9B7633008F34CE /* plugguieditor.h */,
+				24E45BA80F9B7633008F34CE /* vstcontrols.h */,
+				24E45BAA0F9B7633008F34CE /* vstgui.h */,
+				24E45BAB0F9B7633008F34CE /* vstkeycode.h */,
+				24E45BAC0F9B7633008F34CE /* vstplugscarbon.h */,
+				24E45BAD0F9B7633008F34CE /* vstplugsmac.h */,
+				24E45BAE0F9B7633008F34CE /* vstplugsmacho.h */,
+				24E45BAF0F9B7633008F34CE /* vstplugsquartz.h */,
+			);
+			path = vstgui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,15 +616,17 @@
 				24C0ABFB0964A83D002FAA1A /* PulseDelayCore.h in Headers */,
 				245B71C00965AA2B00E5733E /* defaults.h in Headers */,
 				24D14C42096D6D9600D7CD97 /* fxEnvelope.h in Headers */,
-				24F30A460AB9C7CE009BF892 /* effectCore.h in Headers */,
-				24F30A480AB9C7CE009BF892 /* eventManager.h in Headers */,
-				24F30A4A0AB9C7CE009BF892 /* pluginCore.h in Headers */,
-				24F30A520AB9C7CE009BF892 /* productDir.h in Headers */,
-				24F30A5D0AB9C7F3009BF892 /* aeffeditor.h in Headers */,
-				24F30A5F0AB9C7F3009BF892 /* audioeffect.h in Headers */,
-				24F30A610AB9C7F3009BF892 /* audioeffectx.h in Headers */,
-				24D1804E0AD2BF320021C368 /* xmlLogger.h in Headers */,
-				24D180500AD2BF320021C368 /* xmlWriter.h in Headers */,
+				24E458FF0F9B73D3008F34CE /* appMac.h in Headers */,
+				24E459010F9B73D3008F34CE /* auLoader.h in Headers */,
+				24E459030F9B73D3008F34CE /* effectCore.h in Headers */,
+				24E459050F9B73D3008F34CE /* eventManager.h in Headers */,
+				24E459070F9B73D3008F34CE /* pluginCore.h in Headers */,
+				24E4590B0F9B73D3008F34CE /* pluginLoader.h in Headers */,
+				24E4590D0F9B73D3008F34CE /* productDir.h in Headers */,
+				24E4590F0F9B73D3008F34CE /* vstLoader.h in Headers */,
+				24E459130F9B73D3008F34CE /* xmlLogger.h in Headers */,
+				24E459150F9B73D3008F34CE /* xmlWriter.h in Headers */,
+				24E45BED0F9B7835008F34CE /* xcode_vst_prefix.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,12 +802,26 @@
 				24D27EE0097B4C8E0039D32E /* fxEnvelope.cpp in Sources */,
 				24D27EDF097B4C800039D32E /* PulseDelayCore.cpp in Sources */,
 				24D27E45097B449A0039D32E /* PulseDelayAU.cpp in Sources */,
-				24F30A350AB9C7CE009BF892 /* effectCore.cpp in Sources */,
-				24F30A360AB9C7CE009BF892 /* eventManager.cpp in Sources */,
-				24F30A370AB9C7CE009BF892 /* pluginCore.cpp in Sources */,
-				24F30A3D0AB9C7CE009BF892 /* productDir.cpp in Sources */,
-				24D180510AD2BF320021C368 /* xmlLogger.cpp in Sources */,
-				24D180520AD2BF320021C368 /* xmlWriter.cpp in Sources */,
+				24E458F00F9B73D3008F34CE /* appMac.cpp in Sources */,
+				24E458F10F9B73D3008F34CE /* auLoader.cpp in Sources */,
+				24E458F20F9B73D3008F34CE /* effectCore.cpp in Sources */,
+				24E458F30F9B73D3008F34CE /* eventManager.cpp in Sources */,
+				24E458F40F9B73D3008F34CE /* pluginCore.cpp in Sources */,
+				24E458F50F9B73D3008F34CE /* pluginCoreMidi.cpp in Sources */,
+				24E458F60F9B73D3008F34CE /* pluginCorePreset.cpp in Sources */,
+				24E458F70F9B73D3008F34CE /* pluginLoader.cpp in Sources */,
+				24E458F80F9B73D3008F34CE /* productDir.cpp in Sources */,
+				24E458F90F9B73D3008F34CE /* vstLoader.cpp in Sources */,
+				24E458FA0F9B73D3008F34CE /* vstLoaderEditor.cpp in Sources */,
+				24E458FB0F9B73D3008F34CE /* vstLoaderHost.cpp in Sources */,
+				24E458FC0F9B73D3008F34CE /* xmlLogger.cpp in Sources */,
+				24E458FD0F9B73D3008F34CE /* xmlWriter.cpp in Sources */,
+				24E45BDA0F9B769F008F34CE /* cfileselector.cpp in Sources */,
+				24E45BDB0F9B769F008F34CE /* cscrollview.cpp in Sources */,
+				24E45BDC0F9B769F008F34CE /* ctabview.cpp in Sources */,
+				24E45BDD0F9B769F008F34CE /* plugguieditor.cpp in Sources */,
+				24E45BDE0F9B769F008F34CE /* vstgui.cpp in Sources */,
+				24E45BE00F9B76AA008F34CE /* vstcontrols.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,15 +832,29 @@
 				2407DEBB089929BA00EB68BF /* PulseDelayVST.cpp in Sources */,
 				24C0ABFC0964A83D002FAA1A /* PulseDelayCore.cpp in Sources */,
 				24D14C43096D6D9600D7CD97 /* fxEnvelope.cpp in Sources */,
-				24F30A450AB9C7CE009BF892 /* effectCore.cpp in Sources */,
-				24F30A470AB9C7CE009BF892 /* eventManager.cpp in Sources */,
-				24F30A490AB9C7CE009BF892 /* pluginCore.cpp in Sources */,
-				24F30A510AB9C7CE009BF892 /* productDir.cpp in Sources */,
-				24F30A5E0AB9C7F3009BF892 /* audioeffect.cpp in Sources */,
-				24F30A600AB9C7F3009BF892 /* audioeffectx.cpp in Sources */,
-				24F30A620AB9C7F3009BF892 /* vstplugmain.cpp in Sources */,
-				24D1804D0AD2BF320021C368 /* xmlLogger.cpp in Sources */,
-				24D1804F0AD2BF320021C368 /* xmlWriter.cpp in Sources */,
+				24E458FE0F9B73D3008F34CE /* appMac.cpp in Sources */,
+				24E459000F9B73D3008F34CE /* auLoader.cpp in Sources */,
+				24E459020F9B73D3008F34CE /* effectCore.cpp in Sources */,
+				24E459040F9B73D3008F34CE /* eventManager.cpp in Sources */,
+				24E459060F9B73D3008F34CE /* pluginCore.cpp in Sources */,
+				24E459080F9B73D3008F34CE /* pluginCoreMidi.cpp in Sources */,
+				24E459090F9B73D3008F34CE /* pluginCorePreset.cpp in Sources */,
+				24E4590A0F9B73D3008F34CE /* pluginLoader.cpp in Sources */,
+				24E4590C0F9B73D3008F34CE /* productDir.cpp in Sources */,
+				24E4590E0F9B73D3008F34CE /* vstLoader.cpp in Sources */,
+				24E459100F9B73D3008F34CE /* vstLoaderEditor.cpp in Sources */,
+				24E459110F9B73D3008F34CE /* vstLoaderHost.cpp in Sources */,
+				24E459120F9B73D3008F34CE /* xmlLogger.cpp in Sources */,
+				24E459140F9B73D3008F34CE /* xmlWriter.cpp in Sources */,
+				24E45BD20F9B768E008F34CE /* audioeffect.cpp in Sources */,
+				24E45BD30F9B768E008F34CE /* audioeffectx.cpp in Sources */,
+				24E45BD40F9B768E008F34CE /* vstplugmain.cpp in Sources */,
+				24E45BD50F9B769F008F34CE /* cfileselector.cpp in Sources */,
+				24E45BD60F9B769F008F34CE /* cscrollview.cpp in Sources */,
+				24E45BD70F9B769F008F34CE /* ctabview.cpp in Sources */,
+				24E45BD90F9B769F008F34CE /* vstgui.cpp in Sources */,
+				24E45BDF0F9B76A9008F34CE /* vstcontrols.cpp in Sources */,
+				24E45BE20F9B76B9008F34CE /* aeffguieditor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,43 +877,26 @@
 		24BEAAEE08919AE700E695F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
 				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					DEBUG,
-					MAC,
-					MACX,
-					USE_PC_VST,
-					USE_PC_EVENTS,
-					USE_PC_EFFECTS,
-				);
+				GCC_PREFIX_HEADER = ./mac/xcode_vst_prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = (
-					../../PluginCore/trunk/source,
-					"../../libvst/trunk/source/**",
+					plugincore/source,
+					"vstsdk2.4/**",
 				);
 				INFOPLIST_FILE = "mac/VST-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = Bundle;
-				OPTIMIZATION_CFLAGS = "-O0";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = PulseDelay;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -723,48 +905,32 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = vst;
-				ZERO_LINK = NO;
 			};
 			name = Debug;
 		};
 		24BEAAEF08919AE700E695F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MAC,
-					MACX,
-					USE_PC_VST,
-					USE_PC_EVENTS,
-					USE_PC_EFFECTS,
-				);
+				GCC_PREFIX_HEADER = ./mac/xcode_vst_prefix.h;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = (
-					../../PluginCore/trunk/source,
-					"../../libvst/trunk/source/**",
+					plugincore/source,
+					"vstsdk2.4/**",
 				);
 				INFOPLIST_FILE = "mac/VST-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = PulseDelay;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -773,13 +939,13 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = vst;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 		24BEAAF208919AE700E695F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "";
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.3;
@@ -790,6 +956,9 @@
 		24BEAAF308919AE700E695F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_OPTIMIZATION_LEVEL = 3;
 				INFOPLIST_FILE = "";
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.3;
@@ -800,39 +969,23 @@
 		24D27C79097B1CED0039D32E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
 				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
 				EXPORTED_SYMBOLS_FILE = ./mac/PulseDelay.exp;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G4;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ./mac/xcode_au_prefix.h;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					DEBUG,
-					MAC,
-					MACX,
-					USE_PC_AU,
-					USE_PC_EVENTS,
-					USE_PC_EFFECTS,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = ../../PluginCore/trunk/source;
+				HEADER_SEARCH_PATHS = plugincore/source;
 				INFOPLIST_FILE = "./mac/AU-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
-				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase -D  TARGET_REZ_MAC_PPC=1";
 				PREBINDING = YES;
 				PRODUCT_NAME = PulseDelay;
-				REZ_PREPROCESSOR_DEFINITIONS = "DEBUG MAC MACX USE_PC_AU USE_PC_EVENTS USE_PC_EFFECTS";
+				REZ_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Versions/CarbonCore.framework/Versions/A/Headers,
 					/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase,
@@ -843,41 +996,24 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = component;
-				ZERO_LINK = NO;
 			};
 			name = Debug;
 		};
 		24D27C7A097B1CED0039D32E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEBUGGING_SYMBOLS = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				EXPORTED_SYMBOLS_FILE = ./mac/PulseDelay.exp;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G4;
-				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ./mac/xcode_au_prefix.h;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MAC,
-					MACX,
-					USE_PC_AU,
-					USE_PC_EVENTS,
-					USE_PC_EFFECTS,
-				);
 				GCC_UNROLL_LOOPS = YES;
 				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = ../../PluginCore/trunk/source;
+				HEADER_SEARCH_PATHS = plugincore/source;
 				INFOPLIST_FILE = "./mac/AU-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
-				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.2;
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase -D  TARGET_REZ_MAC_PPC=1";
@@ -895,7 +1031,6 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = component;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};

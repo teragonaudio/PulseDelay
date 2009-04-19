@@ -44,6 +44,9 @@ enum {
 #define MIN_DECAY 0.1
 #define MAX_DECAY 1.0
 
+// PluginCore defaults
+#define USE_PC_EFFECTS 1
+
 #ifdef USE_PC_AU
 #ifdef DEBUG
 #define kPulseDelayVersion 0xFFFFFFFF
