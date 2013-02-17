@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2012
+Project("{B61B3F81-40A9-1BBA-A242-1C0D6182A34A}") = "PulseDelay", "PulseDelay.vcxproj", "{09F24133-8D99-FCA9-5ECE-285906365EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F24133-8D99-FCA9-5ECE-285906365EBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09F24133-8D99-FCA9-5ECE-285906365EBB}.Debug|Win32.Build.0 = Debug|Win32
+		{09F24133-8D99-FCA9-5ECE-285906365EBB}.Release|Win32.ActiveCfg = Release|Win32
+		{09F24133-8D99-FCA9-5ECE-285906365EBB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
