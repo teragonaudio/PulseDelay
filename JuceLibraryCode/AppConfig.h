@@ -152,7 +152,7 @@
  #define JucePlugin_SilenceInProducesSilenceOut  0
 #endif
 #ifndef  JucePlugin_TailLengthSeconds
- #define JucePlugin_TailLengthSeconds      0
+ #define JucePlugin_TailLengthSeconds      4
 #endif
 #ifndef  JucePlugin_EditorRequiresKeyboardFocus
  #define JucePlugin_EditorRequiresKeyboardFocus  0

@@ -6,7 +6,7 @@
               pluginManufacturer="Teragon Audio" pluginManufacturerCode="Tera"
               pluginCode="PlDl" pluginChannelConfigs="{1, 1}, {2, 2}" pluginIsSynth="0"
               pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginSilenceInIsSilenceOut="0"
-              pluginTailLength="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="PulseDelayAU"
+              pluginTailLength="4" pluginEditorRequiresKeys="0" pluginAUExportPrefix="PulseDelayAU"
               pluginAUViewClass="PulseDelayAU_V1" pluginRTASCategory="" aaxIdentifier="com.yourcompany.PulseDelay"
               pluginAAXCategory="AAX_ePlugInCategory_Dynamics">
   <MAINGROUP id="N6V2oA" name="PulseDelay">
