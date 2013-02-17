@@ -1,4 +1,6 @@
 build
 *.pbxuser
 *.perspectivev3
+project.xcworkspace
+workspace.xml
 Third-Party/vstsdk2.4/*
