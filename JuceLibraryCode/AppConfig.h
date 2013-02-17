@@ -11,8 +11,8 @@
 
 */
 
-#ifndef __JUCE_APPCONFIG_LBUFHE__
-#define __JUCE_APPCONFIG_LBUFHE__
+#ifndef __JUCE_APPCONFIG_LFOKDA__
+#define __JUCE_APPCONFIG_LFOKDA__
 
 //==============================================================================
 // [BEGIN_USER_CODE_SECTION]
@@ -227,4 +227,4 @@
  #define JucePlugin_AAXDisableBypass       0
 #endif
 
-#endif  // __JUCE_APPCONFIG_LBUFHE__
+#endif  // __JUCE_APPCONFIG_LFOKDA__

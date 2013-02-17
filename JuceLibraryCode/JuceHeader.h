@@ -10,8 +10,8 @@
 
 */
 
-#ifndef __APPHEADERFILE_LBUFHE__
-#define __APPHEADERFILE_LBUFHE__
+#ifndef __APPHEADERFILE_LFOKDA__
+#define __APPHEADERFILE_LFOKDA__
 
 #include "AppConfig.h"
 #include "modules/juce_audio_basics/juce_audio_basics.h"
@@ -37,4 +37,4 @@ namespace ProjectInfo
     const int          versionNumber  = 0x10000;
 }
 
-#endif   // __APPHEADERFILE_LBUFHE__
+#endif   // __APPHEADERFILE_LFOKDA__

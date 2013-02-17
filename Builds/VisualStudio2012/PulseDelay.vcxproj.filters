@@ -259,9 +259,6 @@
     <ClCompile Include="..\..\Source\PluginProcessor.cpp">
       <Filter>PulseDelay\Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PluginEditor.cpp">
-      <Filter>PulseDelay\Source</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.cpp">
       <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
     </ClCompile>
@@ -1246,9 +1243,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
-      <Filter>PulseDelay\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PluginEditor.h">
       <Filter>PulseDelay\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h">
