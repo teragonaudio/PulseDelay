@@ -9,8 +9,6 @@
 */
 
 #include "PluginProcessor.h"
-#include "PluginEditor.h"
-
 
 //==============================================================================
 PulseDelayAudioProcessor::PulseDelayAudioProcessor()
@@ -22,16 +20,6 @@ PulseDelayAudioProcessor::~PulseDelayAudioProcessor()
 }
 
 //==============================================================================
-const String PulseDelayAudioProcessor::getName() const
-{
-    return JucePlugin_Name;
-}
-
-int PulseDelayAudioProcessor::getNumParameters()
-{
-    return 0;
-}
-
 float PulseDelayAudioProcessor::getParameter (int index)
 {
     return 0.0f;
@@ -51,84 +39,19 @@ const String PulseDelayAudioProcessor::getParameterText (int index)
     return String::empty;
 }
 
-const String PulseDelayAudioProcessor::getInputChannelName (int channelIndex) const
-{
-    return String (channelIndex + 1);
-}
-
-const String PulseDelayAudioProcessor::getOutputChannelName (int channelIndex) const
-{
-    return String (channelIndex + 1);
-}
-
-bool PulseDelayAudioProcessor::isInputChannelStereoPair (int index) const
-{
-    return true;
-}
-
-bool PulseDelayAudioProcessor::isOutputChannelStereoPair (int index) const
-{
-    return true;
-}
-
-bool PulseDelayAudioProcessor::acceptsMidi() const
-{
-   #if JucePlugin_WantsMidiInput
-    return true;
-   #else
-    return false;
-   #endif
-}
-
-bool PulseDelayAudioProcessor::producesMidi() const
-{
-   #if JucePlugin_ProducesMidiOutput
-    return true;
-   #else
-    return false;
-   #endif
-}
-
-bool PulseDelayAudioProcessor::silenceInProducesSilenceOut() const
-{
-    return false;
-}
-
-int PulseDelayAudioProcessor::getNumPrograms()
-{
-    return 0;
-}
-
-int PulseDelayAudioProcessor::getCurrentProgram()
-{
-    return 0;
-}
-
-void PulseDelayAudioProcessor::setCurrentProgram (int index)
-{
-}
-
-const String PulseDelayAudioProcessor::getProgramName (int index)
-{
-    return String::empty;
-}
-
-void PulseDelayAudioProcessor::changeProgramName (int index, const String& newName)
-{
-}
-
 //==============================================================================
 void PulseDelayAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    // Use this method as the place to do any pre-playback
-    // initialisation that you need..
 }
 
 void PulseDelayAudioProcessor::releaseResources()
 {
-    // When playback stops, you can use this as an opportunity to free up any
-    // spare memory, etc.
 }
+
+void PulseDelayAudioProcessor::reset() {
+
+}
+
 
 void PulseDelayAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& midiMessages)
 {
@@ -151,16 +74,6 @@ void PulseDelayAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuff
 }
 
 //==============================================================================
-bool PulseDelayAudioProcessor::hasEditor() const
-{
-    return true; // (change this to false if you choose to not supply an editor)
-}
-
-AudioProcessorEditor* PulseDelayAudioProcessor::createEditor()
-{
-    return new PulseDelayAudioProcessorEditor (this);
-}
-
 //==============================================================================
 void PulseDelayAudioProcessor::getStateInformation (MemoryBlock& destData)
 {
